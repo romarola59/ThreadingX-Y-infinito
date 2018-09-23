@@ -7,11 +7,12 @@ namespace Threding_X_Y
     public class Program
     {
         public static void Main()
+            // Este codigo hace que aparezcan los simbolos en la posicion x(10) Y(40) en un ciclo sin fin
         {
             int posX = 40, posY = 10;
             string simbolos = "^>v<";
             byte simboloActual = 0;
-            bool terminado = false;
+            bool terminado = false;         
             do
             {
                 Console.Clear();
